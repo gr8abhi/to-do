@@ -60,7 +60,7 @@ function App() {
         <div className="flex flex-col items-center justify-center py-8 gap-4">
           <h1 className="font-bold text-4xl text-center text-gray-800">My Day</h1>
           <button
-            className="fixed bottom-4 right-4 bg-blue-500 text-white rounded-full p-4 shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="fixed bottom-4 right-4 bg-custom-gray text-white rounded-full p-4 shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
             onClick={() => setIsModalOpen(true)}
           >
             <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
